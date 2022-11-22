@@ -7,6 +7,17 @@ function App() {
   return (
     <div className="App container">
       <Weather />
+      <p>
+        {" "}
+        <a
+          href="https://github.com/ts-olga/weather-app-react"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Open-source code
+        </a>
+        , by Olga Tsyrulyk
+      </p>
     </div>
   );
 }
